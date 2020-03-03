@@ -5,18 +5,18 @@ default: &default
 
 development:
   <<: *default
-  database: d32s9u6f0lbmo5
-  username: mytefdehhuouvc
-  password: a405bb409e4f3b93cba7da10d0e2dca858208d02b4406fa2fbca0206b321a569
-  host: ec2-176-34-97-213.eu-west-1.compute.amazonaws.com
+  database: drplisd95fg1
+  username: dtuqnappgdylpp
+  password: 3a8355e832bf650096ff62a83c88a0e7290c372197abef3037216e8bd96d6509
+  host: ec2-23-22-156-110.compute-1.amazonaws.com
   port: 5432
 
 test:
   <<: *default
-  database: d32s9u6f0lbmo5
+  database: drplisd95fg1
 
 production:
   <<: *default
-  database: d32s9u6f0lbmo5
-  username: mytefdehhuouvc
-  password: a405bb409e4f3b93cba7da10d0e2dca858208d02b4406fa2fbca0206b321a569
+  database: drplisd95fg1
+  username: dtuqnappgdylpp
+  password: 3a8355e832bf650096ff62a83c88a0e7290c372197abef3037216e8bd96d6509
